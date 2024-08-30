@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: black;
+  color: white;
+}
+header {
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#logo-box {
+  width: 144px;
+  height: 130px;
+}
+
+#logo-box img {
+  width: 135px;
+  height: 130px;
+}
+#logo-box p {
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: -30px;
+  font-family: "Archivo", "Times New Roman", Times, serif;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  margin-left: 70px;
+  font-size: 24px;
+  font-family: "Archivo", "Times New Roman", Times, serif;
+}
+
+nav a:hover {
+  background-color: orange;
+  border-radius: 10%;
+}
+#hero {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  width: 636px;
+  height: 460px;
+  margin-top: 120px;
+  margin-left: 120px;
+}
+
+.title p {
+  font-size: 125px;
+  font-weight: 700;
+  font-family: "Archivo", "Times New Roman", Times, serif;
+}
+.shoe-img {
+  width: 756px;
+  height: 766px;
+}
+
+.txt1 {
+  font-size: 46px;
+  font-weight: 700;
+  font-family: "Archivo", "Times New Roman", Times, serif;
+}
+
+#how-its-work {
+  margin-top: 170px;
+}
+
+.text1 {
+  width: 584px;
+  height: 121px;
+  margin-left: 35%;
+}
+
+.text2 {
+  width: 245px;
+  height: 103px;
+  margin-left: 80px;
+  margin-top: 100px;
+}
+.text2 h1 {
+  font-size: 32px;
+  font-weight: 700px;
+  font-family: "Archivo", "Times New Roman", Times, serif;
+}
+.text2 p {
+  font-size: 19px;
+  font-weight: 400;
+  font-family: "Archivo", "Times New Roman", Times, serif;
+}
+
+.work-pic {
+  margin-left: 25%;
+  margin-top: -190px;
+}
+
+#ar1 {
+  margin-left: 80px;
+  margin-top: 50px;
+}
+
+.txt3 p {
+  font-size: 19px;
+  font-weight: 400;
+  font-family: "Archivo", "Times New Roman", Times, serif;
+}
+
+.txt3 h1 {
+  font-size: 32px;
+  font-weight: 700px;
+  font-family: "Archivo", "Times New Roman", Times, serif;
+}
+
+.txt3 {
+  width: 249px;
+  height: 108px;
+  margin-left: 80%;
+}
+
+#ar2 {
+  margin-top: -100px;
+  margin-left: -200px;
+}
+
+.txt4 h1 {
+  font-size: 32px;
+  font-weight: 700px;
+  font-family: "Archivo", "Times New Roman", Times, serif;
+}
+
+.txt4 p {
+  font-size: 19px;
+  font-weight: 400;
+  font-family: "Archivo", "Times New Roman", Times, serif;
+}
+
+.txt4 {
+  width: 247px;
+  height: 110px;
+  margin-left: 25%;
+  margin-top: -100px;
+}
+
+#ar3 {
+  margin-top: -250px;
+  margin-left: 200px;
+}
+
+#about-us {
+  margin-top: 100px;
+}
+
+.about-us-pic {
+  width: 720px;
+  height: 845px;
+  background-image: url("./images/about-us-bg.png");
+}
+
+.about-us-txt h1 {
+  font-size: 64px;
+  font-family: "Archivo", "Times New Roman", Times, serif;
+  font-weight: 700;
+}
+.about-us-txt {
+  margin-left: 900px;
+  margin-top: -900px;
+}
+
+.para {
+  width: 505px;
+  height: 400px;
+  margin-top: 50px;
+}
+
+.para p {
+  font-family: "Archivo", "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+footer {
+  background-color: black;
+  color: #fff;
+  padding: 20px 0;
+  font-family: "Archivo", "Times New Roman", Times, serif;
+  margin-top: 100px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-content h2 {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #f0a500;
+}
+
+.footer-section {
+  width: 25%;
+  margin-bottom: 20px;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #f0a500;
+}
+
+.footer-section p {
+  margin: 5px 0;
+}
+
+.footer-section a {
+  color: #f0a500;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid #555;
+  padding-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .footer-section {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+  }
+}
